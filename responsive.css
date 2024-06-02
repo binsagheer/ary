@@ -1,0 +1,14 @@
+
+@media 
+(max-width:800px) { 
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 400px 150px 300px 500px;
+    grid-template-rows: 40px 300px 250px 300px 250px;
+grid-template-areas: 
+"red1 red1 red1 green2 green2"
+'blue3 blue3 blue3 pink5 pink5'
+"black4 black4 black4 pink5 pink5";
+}
+}

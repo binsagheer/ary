@@ -1,0 +1,57 @@
+
+@media (max-width:769px) {
+    .col-navbar{min-width:100%;}
+    .tag ul{
+        display: flex !important;justify-content:space-around;align-items: center !important;flex-direction: row !important;
+    }
+    /* ul{position: unset !important;} */
+    
+    .tag ul li a+p{font-size:14px;font-weight: 100;
+        
+    }
+    /* ul li:nth-child(1){display: none !important;} */
+    .tag ul li{text-decoration: none !important;padding: 5px 40px 5px 40px!important;text-align: center;} 
+    .tag{width: 100%;}
+    
+    .mob-nav{
+        display: block !important;
+    }
+    .col-navbar{display: none !important;}
+    .main-image img{display: grid;place-items: center !important;}
+    .main-image .text-content{padding-left: 0px !important;text-align: center !important;}
+
+    .main-h{font-size: 40px;}
+li::marker{
+    display: none;
+    font-size: 0;
+}
+}
+
+/* <!------------------------------END OF HEADER SECTION ---------------------------> */
+
+@media (max-width:576px) {
+    .main-image img{display: grid;place-items: center !important;}
+    .main-image .text-content{padding-left: 0px !important;text-align: center !important;}
+}
+ /* =============my price=========              */
+@media (max-width:425px) {
+    table,th,tr,td{width:100% !important;
+    padding:5px 80px!important;}
+    
+}
+
+/* <!-- ========my reputation====== --> */
+@media (max-width:576px) {
+    .custmer1{flex-direction: column !important;row-gap: 20px !important;}
+    .custmer1 img{width:150px!important;height:150px !important;}
+    .custmer1 h6{font-size:11px !important;font-weight: 900 !important;}
+   .contect-us button{width: 100% !important;}
+   }  
+
+
+   
+@media (max-width:576px)
+{.left img{padding:5px !important;width:100% !important;}
+.right img{padding:5px !important;width:100% !important;}
+.happy-clients ul{flex-direction: column !important;object-fit: ;}
+}

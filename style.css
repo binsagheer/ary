@@ -1,0 +1,125 @@
+*{
+    margin: 0;pad: 0;box-sizing: border-box;
+}
+body{
+    background-color:#000000
+    
+    ;padding-left: 0px;font-family: "Montserrat", sans-serif;
+}
+.mob-nav{display:none;}
+/* .col-navbar{background-color: lightgoldenrodyellow; */
+.main-h{font-size: 60px;margin-bottom: 12px;color: white;font-weight: 400px;font-family: "Montserrat", sans-serif; word-spacing: 0.4rem;text-align: center;}
+.second-h{margin-bottom: 12px;color: white;font-weight: 400px;font-family: "Montserrat", sans-serif; word-spacing: 0.4rem;text-align: center;}
+*h2{ color: rgb(253, 252, 249);border-bottom:2px solid rgb(255, 255, 255);width:22%;padding: 20px 10px ;margin-bottom: 5px;font-size: 22px;margin-bottom: 2rem;display: inline;}
+.tag img{min-width: 100%;}
+.tag{
+    text-align: center;display: flex;justify-content: baseline;align-items: center;flex-direction: column;
+}
+.tag a{
+    text-decoration: none;color: white;font-size: 24px;text-align: center;text-transform: capitalize;font-size: 32px;
+}
+.tag p{font-weight: bolder;font-size:28px;color: white;margin:0 !important;}
+.col-navbar{
+    background-color: rgb(59, 61, 62);padding: 0px !important;height:auto;overflow-x: hidden;
+}
+li{text-decoration: none;padding:0px !important;}
+ul{padding-inline-start: 0;text-decoration: none;}
+li:hover{
+    background-color:black;color: white;
+}
+
+
+/* .main-image img{margin-left: auto;} */
+.main-image .text-content{text-align: center;}
+.active{
+    background-color:black;
+}
+
+
+
+.navbar-toggler:hover{border: 3px solid #5be9dc;
+}
+.navbar-toggler-icon{background: yellow;}
+.navbar-toggler{
+    border: 3px solid yellow;
+}
+.navbar-nav{text-align: center;font-size: 22px;color: yellow;font-weight: bolder;}
+
+
+
+/* <!------------------------------END OF HEADER SECTION ---------------------------> */
+
+.text-about{margin-top:120px;}
+h2{ color: rgb(253, 252, 249);border-bottom:2px solid rgb(255, 255, 255);width:22%;padding: 20px 10px ;margin-bottom: 5px;font-size: 22px;margin-bottom: 2rem;display: inline;}
+.text-about p{
+    font-size: 16px;color: rgb(125, 123, 123);word-spacing: 0.3rem;padding-bottom: 10px;
+}
+/* <!------------------------------END OF about section ---------------------------> */
+
+.skill h2{display: inline !important;}
+.progress{
+    overflow: hidden;
+    line-height: 30;
+    font-size: 30.75rem;
+    background-color: #e9ecef;
+    border-radius: none;
+    height: 1.5rem;
+  
+}
+.progress-bar 
+{
+   background-color:#5c5f63 !important;;
+}
+.skill-level{line-height: 40px;}
+
+.happy-clients{height: auto;padding: 10px 20px;background-color: #e9ecef;text-align: center;
+}
+.happy-clients ul{
+    display: flex;justify-content: space-around;align-items: center;flex-direction: row;flex-wrap: wrap;
+}
+.happy-clients ul li::marker{display: none;font-size: 0;}
+
+                   /* =============my price=========              */
+table,th,td{border: 1px solid gray;border-collapse: collapse;text-align: center;padding:auto;}
+table{width: 220px;height: 450px;}
+th{padding: 0px 150px;background-color: #5c5f63;color: #e9ecef;font-size: 24px;}
+
+.price-table{display: flex;justify-content: center;align-items: center;flex-wrap: wrap;gap: 20px;}
+.table1 button{box-shadow:rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;}
+
+  .comments img{ border-radius: 50%;width:80px;height:80px;}
+ .my-custmer h2{display: inline;}
+
+ .custmer1{padding:10px 0 10px 10px !important;}
+
+ .table1{opacity: 0.6;}
+ .table1:hover{opacity:1;}
+
+             /* ==========my my-custmer =========== */
+
+        
+.custmer1{display: flex;align-items: center;justify-content:flex-start;column-gap: 10px;}
+.custmer-coment{line-height:2rem;}
+
+.custmer-coment h6:hover{color: rgb(123, 120, 120);}
+
+            /* =========== my album============ */
+  
+/* .my-album1{} */
+/* grid-template-columns:auto-fit(repeat,(minmax(250px,1fr)));grid-area: 5px;} */
+/* .my-album{display: flex;justify-content: center;align-items: center;column-gap: 10px;} */
+.left img{padding:5px;}
+.right img{padding:5px;}
+
+
+.left{ padding: 5px !important;}
+.right{padding: 5px !important;}
+
+            /* ================= contect us============ */
+button a{color: black;}
+i{font-size: 20px;padding:0 8px 0 0;color:rgb(92, 92, 90) ;}
+p{color:rgb(109, 109, 108) ;}
+/* label{text-decoration: none !important;} */
+.form-label{color: #6d6f71;}
+
+

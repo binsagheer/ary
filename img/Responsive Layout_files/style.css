@@ -1,0 +1,68 @@
+*{
+    margin: 0;pad: 0;box-sizing: border-box;
+}
+body{
+    background-color:black
+    
+    ;padding-left: 0px !important;
+}
+.mob-nav{display:none;}
+/* .col-navbar{background-color: lightgoldenrodyellow; */
+.main-h{font-size: 60px;margin-bottom: 12px;color: white;font-weight: 400px;font-family: "Montserrat", sans-serif; word-spacing: 0.4rem;text-align: center;}
+.second-h{margin-bottom: 12px;color: white;font-weight: 400px;font-family: "Montserrat", sans-serif; word-spacing: 0.4rem;text-align: center;}
+
+.tag img{min-width: 100%;}
+.tag{
+    text-align: center;display: flex;justify-content: baseline;align-items: center;flex-direction: column;
+}
+.tag a{
+    text-decoration: none;color: white;font-size: 24px;text-align: center;text-transform: capitalize;font-size: 32px;
+}
+.tag p{font-weight: bolder;font-size:28px;color: white;margin:0 !important;}
+.col-navbar{
+    background-color: rgb(59, 61, 62);padding: 0px !important;height: auto;
+}
+li{text-decoration: none;padding:0px !important;}
+ul{padding-inline-start: 0;text-decoration: none;}
+li:hover{
+    background-color:black;color: white;
+}
+
+.main-image img{padding-left: 80px;}
+.active{
+    background-color:black;
+}
+
+@media (max-width:769px) {
+    .col-navbar{min-width:100%;}
+    .tag ul{
+        display: flex !important;justify-content:space-around;align-items: center !important;flex-direction: row !important;
+    }
+    /* ul{position: unset !important;} */
+    
+    .tag ul li a+p{font-size:14px;font-weight: 100;
+        
+    }
+    /* ul li:nth-child(1){display: none !important;} */
+    .tag ul li{text-decoration: none !important;padding: 5px 40px 5px 40px!important;text-align: center;} 
+    .tag{width: 100%;}
+    
+    .mob-nav{
+        display: block !important;
+    }
+    .col-navbar{display: none !important;}
+    .main-image img{padding-left:0px;}
+
+    .main-h{font-size: 40px;}
+li::marker{
+    display: none;
+    font-size: 0;
+}
+}
+.navbar-toggler:hover{border: 3px solid #5be9dc;
+}
+.navbar-toggler-icon{background: yellow;}
+.navbar-toggler{
+    border: 3px solid yellow;
+}
+.navbar-nav{text-align: center;font-size: 22px;color: yellow;font-weight: bolder;}
